@@ -1,0 +1,142 @@
+.discussSection{
+    background: var(--whiteColor);
+    position: relative;
+    min-height: 100vh;
+}
+
+.discussSection .disHeader{
+    background: var(--primaryColor);
+    color: var(--whiteColor);
+    border-radius: 0 0 10px 10px;
+}
+
+.discussSection .disHeader .disTitle{
+   width: 60%;
+   background: rgba(0, 0, 0, 0.329);
+   margin: 0 auto;
+   padding: 4px 5px;
+   border-radius: 7px;
+   gap: 5px;
+   justify-content: center;
+   align-items: center;
+}
+.discussSection .disHeader .disTitle p{
+}
+
+.discussSection .disHeader .disImages{
+    margin: 10px 0;
+    justify-content: center;
+}
+
+.discussSection .disHeader img{
+    width: 45px;
+    height: 45px;
+    border-radius: 50%;
+    transform: translateX(-15px);
+    border-left: 3px solid var(--primaryColor);
+}
+
+.discussSection .disHeader img:nth-child(1){
+    transform: translateX(0px);
+    border: none;
+}
+
+.discussSection .disHeader .disDetails{
+    text-align: center;
+    margin-top: 5px;
+}
+
+.discussSection .disHeader .disDetails p{
+    font-size: 14px;
+    padding-bottom: 5px;
+}
+
+.discussSection .disHiddenIcon{
+    position: absolute;
+    background: var(--opacityBlackColor);
+    color: var(--whiteColor);
+    top: 5px; right: 10px;
+    padding: 1px 4px;
+    border-radius: 50%;
+    font-size: 12px;
+}
+
+
+.discussSection .disBody{
+    padding: 25px 5%;
+}
+
+.discussSection .disBody .msg{
+    align-items: start;
+    gap: 5px;   
+    margin-bottom: 30px;
+    flex-direction: row-reverse;
+}
+
+.discussSection .disBody .msg img{
+    width: 35px;
+    height: 30px;
+    border-radius: 50%;
+}
+
+.discussSection .disBody .msg .msgContent{
+    text-align: right;
+}
+
+.discussSection .disBody .msg .msgContent span{
+   color: rgba(0, 0, 0, 0.579);
+   font-size: 14px;
+    margin-bottom: 5px;
+    text-align: right;
+}
+
+.discussSection .disBody .msg .msgContent p{
+   padding: 8px 10px;
+   border: 2px solid var(--opacityBlackColor);
+   border-radius: 5px 15px 20px 15px;
+   font-size: 16px;
+   text-align: left;
+}
+
+.discussSection .disBody .msg.mymsg{
+   flex-direction: row;
+}
+
+.discussSection .disBody .msg.mymsg .msgContent{
+   text-align: left;
+}
+
+.discussSection .disBody .msg.mymsg .msgContent p{
+    background: var(--primaryColor);
+    color: white;
+    border: none;
+}
+
+.discussSection .msgForm .firstForm{
+    border-top: 1.5px solid var(--opacityBlackColor);
+    padding: 10px 3% 10px;
+    align-items: start;
+    position: fixed;
+    width: 100%;
+    bottom: 60px;
+    left: 0;
+    background: var(--whiteColor);
+}
+
+.discussSection .msgForm .firstForm textarea{
+    width: 90%;
+    font-size: 15px;
+    height: 40px;
+    padding: 5px 10px 0;
+}
+
+.discussSection .msgForm .firstForm textarea:hover{
+    height: 100px;
+}
+
+.discussSection .msgForm .firstForm button{
+    background: var(--primaryColor);
+    color: var(--whiteColor);
+    padding: 5px 10px;
+    border-radius: 7px;
+}

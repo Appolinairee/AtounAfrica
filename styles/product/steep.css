@@ -1,0 +1,41 @@
+/* Step styles */
+.stepsSection{
+    margin: 0 var(--smallMargin);
+    padding: 70px 0 10px;
+}
+
+.steps{
+    justify-content: space-between;
+    flex-wrap: nowrap;
+    background: var(--whiteColor);
+    padding: 0px 5px;
+    border-radius: 10px 10px 0 0;
+}
+
+.steps .steep{
+    padding: 10px;
+    border-left: 1px solid rgba(0, 0, 0, 0.097);
+}
+
+.steps .steep:nth-child(1){
+    border: none;
+}
+
+.steps .steep p{
+    font-size: 10px;
+    margin-top: 8px;
+}
+
+.steps .steep i{
+    border: 1px solid var(--primaryColor);
+    border-radius: 50%;
+    padding: 6px 5px;
+    align-items: center;
+    font-size: 14px;
+}
+
+.steps .steep.active i{
+    background: var(--primaryColor);
+    color: var(--whiteColor);
+    text-align: center;
+}

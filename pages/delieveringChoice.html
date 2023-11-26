@@ -1,0 +1,234 @@
+<!DOCTYPE html>
+<html lang="fr">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://kit.fontawesome.com/8f616bb0fe.js" crossorigin="anonymous"></script>
+
+    <!-- Styles Links -->
+    <link rel="stylesheet" href="../styles/index.css">
+    <link rel="stylesheet" href="../styles/topBar.css">
+    <link rel="stylesheet" href="../styles/button.css">
+
+    <link rel="stylesheet" href="../styles/product/payment.css">
+    <link rel="stylesheet" href="../styles/baskets/orders.css">
+    <link rel="stylesheet" href="../styles/product/steep.css">
+    <link rel="stylesheet" href="../styles/product/delivers.css">
+
+    <title>Atoun Africa</title>
+</head>
+
+<body>
+    <div class="content">
+        <!-- TopBar Responsive Component -->
+        <nav class="flex section">
+            <div class="menuButton flex">
+                <i class="fa-solid fa-bars"></i>
+                <p>Menu</p>
+            </div>
+
+            <!-- Logo -->
+            <div class="logo">
+                <img src="../assets/images/Logo-Atoun.png" alt="Logo d'Atoun Africa">
+            </div>
+
+            <!-- Recherche -->
+            <div class="research">
+                <form action="" class="flex">
+                    <input type="search" name="" id="" placeholder="Rechercher">
+                    <button type="submit" class="submit">
+                        <i class="fa fa-search"></i>
+                    </button>
+                </form>
+            </div>
+
+            <!--Simple Menu Content -->
+            <div class="simpleMenu">
+                <ul class="flex">
+                    <li href="">
+                        <a class="menuLink flex active">
+                            <i class="fa-solid fa-house"></i>
+                            <p>Accueil</p>
+                        </a>
+                    </li>
+
+                    <li href="">
+                        <a class="menuLink flex">
+                            <i class="fa-solid fa-cart-shopping"></i>
+                            <p>Panier</p>
+                        </a>
+                    </li>
+
+                    <li href="">
+                        <a class="menuLink flex">
+                            <i class="fa-solid fa-braille"></i>
+                            <p>Catégories</p>
+                        </a>
+                    </li>
+
+                    <li href="">
+                        <a class="menuLink flex">
+                            <i class="fa-regular fa-user"></i>
+                            <p>Profil</p>
+                        </a>
+                    </li>
+                </ul>
+            </div>
+
+            <div class="messageButton flex">
+                <div class="messageIcon">
+                    <i class="fa-regular fa-message"></i>
+                    <span class="notificationMark">21</span>
+                </div>
+                <p>Messages</p>
+            </div>
+
+            <div class="BarIndicatifButton">
+                <a class="menuLink flex">
+                    <i class="fa fa-bars"></i>
+                </a>
+            </div>
+        </nav>
+
+        <div class="simpleSideMenu">
+            <ul class="flex">
+                <li href="">
+                    <a class="menuLink flex active">
+                        <i class="fa-solid fa-house"></i>
+                        <p>Accueil</p>
+                    </a>
+                </li>
+
+                <li href="" class="researchBar">
+                    <a class="menuLink flex">
+                        <i class="fa-solid fa-search"></i>
+                        <p>Recherchez</p>
+                    </a>
+                </li>
+
+                <li href="">
+                    <a class="menuLink flex">
+                        <i class="fa-solid fa-cart-shopping"></i>
+                        <p>Panier</p>
+                    </a>
+                </li>
+
+                <li href="">
+                    <a class="menuLink flex">
+                        <i class="fa-solid fa-braille"></i>
+                        <p>Catégories</p>
+                    </a>
+                </li>
+
+                <li href="">
+                    <a class="menuLink flex">
+                        <i class="fa-regular fa-user"></i>
+                        <p>Profil</p>
+                    </a>
+                </li>
+            </ul>
+        </div>
+
+        <!-- Product Content -->
+        <div class="stepContent">
+            <!-- Steeps of Order -->
+            <div class="stepsSection">
+                <div class="steps flex">
+                    <div class="steep">
+                        <i class="fa-solid fa-cart-shopping"></i>
+                        <p>Commander</p>
+                    </div>
+        
+                    <div class="steep  active">
+                        <i class="fa-solid fa-truck-fast"></i>
+                        <p>Choix Livraison</p>
+                    </div>
+        
+                    <div class="steep">
+                        <i class="fa-solid fa-money-bill"></i>
+                        <p>Paiement</p>
+                    </div>
+        
+                    <div class="steep">
+                        <i class="fa-regular fa-star"></i>
+                        <p>Réception</p>
+                    </div>
+                </div>
+            </div>
+
+            <div class="paymentsSection">
+                <div class="actualState flex">
+                    <i class="fa-solid fa-arrow-left"></i>
+                    <span>2</span>
+                    <h3>Choix de la livraison </h3>
+                </div>
+
+                <div class="deliversSection">
+                    <div class="deliverSection">
+                        <h4>Choisissez votre option de livraison</h4>
+
+                        <div class="deliverOptions">
+                            <form action="" method="post">
+                                <div class="delieverOption flex input">
+                                    <input type="checkbox" value="créateur" id="creator">
+                                    <label for="creator">Se faire livrer par le créateur</label>
+    
+                                    <div class="plusIcon">></div>
+                                </div>
+    
+                                <div class="delieverOption flex input">
+                                    <input type="checkbox" value="Gozem" id="gozem">
+                                    <label for="gozem">Gozem</label>
+    
+                                    <div class="plusIcon">></div>
+                                </div>
+    
+                                <div class="delieverOption flex input">
+                                    <input type="checkbox" value="Gozem" id="laly">
+                                    <label for="laly">Laly Express</label>
+    
+                                    <div class="plusIcon">></div>
+                                </div>
+    
+                                <div class="delieverOption flex input">
+                                    <input type="checkbox" value="Gozem" id="deliverhouse">
+                                    <label for="deliverhouse">Deliver House</label>
+    
+                                    <div class="plusIcon">></div>
+                                </div>
+
+                                <button type="submit">Soumettez votre choix</button>
+                            </form>
+                        </div>
+                    </div>
+
+                    <div class="deliverSection deliverDetails">
+                        <h4>Vos coordonnées pour la livraison</h4>
+
+                        <div class="delieverDetails flex">
+                            <form action="">
+                                <div class="deliverDetail input">
+                                    <input type="text" placeholder="Lieu de livraison">
+                                </div>
+
+                                <div class="deliverDetail input">
+                                    <input type="datetime" placeholder="Date et heure de livraison">
+                                </div>
+
+                                <button type="submit">Confirmer vos coordonnées</button>
+                            </form>
+                        </div>
+                    </div>
+               </div>
+
+               <div class="deliverPrices">
+                    <p>Frais de livraison: <b>En attente du livreur</b> (dans au plus 20 minutes) </p>
+                    <br>
+                    <p>Prix total: <b>(5000 + ...)</b> Fcfa </p>
+               </div>
+            </div>
+        </div>
+    </div>
+</body>
+</html>

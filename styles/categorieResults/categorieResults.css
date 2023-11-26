@@ -1,0 +1,13 @@
+.categorieResultContent{
+    padding: 80px 5px;
+}
+
+.categorieResultContent .categorieResult{
+    background: var(--whiteColor);
+    padding: 15px 2%;
+}
+
+.categorieResultContent .categorieResult h4{
+    font-size: 1rem;
+    margin-left: 5px;
+}

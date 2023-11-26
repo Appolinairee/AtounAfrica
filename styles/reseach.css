@@ -1,0 +1,38 @@
+form.research{
+    align-items: center;
+    width: 80%;
+    border: 1.5px solid var(--invisibleColor);
+    height: 50px;
+    padding-left: 10px;
+    border-radius: 20px;
+    position: relative;
+}
+
+form.research i{
+    font-size: 15px;
+    color: var(--invisibleColor);
+}
+
+.research input{
+    width: 100%;
+    background: transparent;
+    font-size: 17px;
+    height: 100%;
+}
+
+.research button.submit{
+    background: transparent;
+}
+
+.research button.submit p{
+    position: absolute;
+    top: 7%;
+    right: 3px;
+    background: var(--primaryColor);
+    color: var(--whiteColor);
+    width: 100px;
+    padding: 10px 0;
+    height: 86%;
+    align-items: center;
+    border-radius: 20px;
+}

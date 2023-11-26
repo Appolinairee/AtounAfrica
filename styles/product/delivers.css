@@ -1,0 +1,64 @@
+.paymentsSection .deliverPrices{
+    margin-bottom: 5rem
+}
+
+.deliversSection{
+
+}
+
+.deliversSection .deliverSection{
+    margin: 2rem 0;
+}
+
+.deliversSection .deliverSection h4{
+    font-size: 18px;
+    margin-bottom: 1rem;
+}
+
+.deliversSection .deliverSection .input{
+    margin-bottom: 15px;
+}
+
+
+.deliversSection .deliverSection input{
+    font-size: 18px;
+    margin-bottom: 1rem;
+    position: relative;
+    margin-bottom: 2rem;
+}
+
+
+.deliversSection .deliverSection .plusIcon{
+   position: absolute;
+   right: 20px;
+    border: 1px solid var(--blackColor);
+    padding: 0px 5px;
+    transform: rotate(90deg);
+    border-radius: 50%;
+    font-size: 12px;
+}
+
+.deliversSection .deliverSection form button{
+    width: 100%;
+    padding: 13px 0;
+    background: var(--primaryColor);
+    color: var(--whiteColor);
+    border-radius: 0 20px 20px 20px;
+    font-size: 17px;
+}
+
+
+.deliversSection .deliverSection.deliverDetails .delieverDetails form{
+    width: 100%;
+}
+
+
+.paymentsSection .deliverPrices{
+    border: 2px solid var(--primaryColor);
+    padding: 15px 5px;
+    border-radius: 10px;
+}
+
+.paymentsSection .deliverPrices p{
+    font-size: 15px;
+}

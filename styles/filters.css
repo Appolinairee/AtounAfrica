@@ -1,0 +1,25 @@
+.productFilters{
+    margin: 10px 0;
+    
+}
+
+.productFilters .productFiltersList{
+    margin: 10px 0;
+    flex-wrap: nowrap;
+    white-space: nowrap;
+    gap: 3%;
+    overflow-x: scroll;
+}
+
+.productFilters .productFiltersList span{
+   padding: 4px 8px;
+   border: 1px solid rgba(0, 0, 0, 0.368);
+   border-radius: 10px;
+   font-size: 15px;
+}
+
+.productFilters p{
+    padding: 5px 10px;
+    background-color: var(--primaryColor);
+    color: var(--whiteColor);
+}
