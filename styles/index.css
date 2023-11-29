@@ -115,12 +115,18 @@ p{
     gap: 10px;
     justify-content: start;
     padding: 5px 10px;
-    height: 45px;
+    height: 47px;
 }
 
 .input input{
     height: 100%;
     margin: auto 0;
-    align-content: center;
-    height: 100%;
+    align-content: center
+}
+
+@media screen and (min-width: 451px) {
+    .input{
+        padding: 10px 10px;
+        height: 50px;
+    }
 }
