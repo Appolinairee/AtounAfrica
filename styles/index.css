@@ -41,7 +41,7 @@ html body{
     position: relative;
 }
 
-input{
+input, textarea, select{
     font-family: 'Montserrat', sans-serif;
 }
 

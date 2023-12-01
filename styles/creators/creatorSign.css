@@ -1,0 +1,26 @@
+.rulesSection .signForm{
+    margin: 1.5rem 0;
+}
+
+.rulesSection .signForm .input{
+    margin: 5px 0 25px 0;
+    border-top-left-radius: 0   ;
+}
+
+.rulesSection .signForm .input input, .rulesSection .signForm .input textarea, .rulesSection .signForm .input select{
+    font-size: 16px;
+}
+
+.rulesSection .signForm label{
+    font-size: 13px;
+}
+
+.rulesSection .signForm label span{
+    color: var(--primaryColor);
+    margin-left: 10px;
+    font-size: 15px;
+}
+
+.rulesSection select{
+    width: 100%;
+}

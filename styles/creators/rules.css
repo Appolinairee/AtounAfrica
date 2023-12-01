@@ -3,6 +3,7 @@
     margin: 0 2%;
     background: var(--whiteColor);
     border-radius: 10px;
+    position: relative;
 }
 
 .rulesSection h2{
@@ -49,4 +50,23 @@
     border-left: 2px solid var(--opacityBlackColor);
     margin-left:  13px;
     padding: 5px 20px 0 20px;
+}
+
+.rulesSection button.button1{
+    position: fixed;
+    top: 90vh;
+    left: 5%;
+    width: 90%;
+    padding: 10px;
+    border-radius: 20px 20px 20px 0px;
+    font-size: 17px;
+}
+
+.rulesSection button.button1::before{
+    width: 100px;
+    top: 100%;
+    left: 0;
+    width: 100%;
+    background: var(--whiteColor);
+    height: 5vh;
 }

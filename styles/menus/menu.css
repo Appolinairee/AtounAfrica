@@ -2,28 +2,40 @@
     padding: 80px 5px;
 }
 
-.menus .menu1.simpleSideMenu ul{
-    position: relative;
-    display: block;
+.menus .menu ul{
+    flex-direction: column;
     justify-content: start;
+    background: var(--whiteColor);
+    border-radius: 20px;
+    margin: 0 2%;
+    padding: 0 3%;
 }
 
-.menus .menu1.simpleSideMenu ul li a{
+.menus .menu ul li{
+    width: 100%;
+}
+
+.menus .menu ul li a{
     flex-direction: row;
     justify-content: start;
     border-bottom: .5px solid var(--invisibleColor);
     gap: 20px;
     padding: 10px 6%;
+    width: 100%;
 }
 
-.menus .menu1.simpleSideMenu ul li:nth-last-child(1) a{
+.menus .menu ul li:nth-last-child(1) a{
     border: none;
 }
 
-.menus .menu1.simpleSideMenu ul li p{
+.menus .menu ul li p{
     font-size: 16px;
 }
 
-.menus .menu2{
+.menus .menu{
    margin: 20px 0;
+}
+
+@media screen and (max-width: 400px) {
+    
 }
